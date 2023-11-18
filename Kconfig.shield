@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_PICANTOR_MX_LEFT
+    def_bool $(shields_list_contains,picantor_mx_left)
+
+config SHIELD_PICANTOR_MX_LEFT
+    def_bool $(shields_list_contains,picantor_mx_right)

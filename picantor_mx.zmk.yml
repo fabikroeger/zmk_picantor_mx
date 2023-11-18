@@ -1,0 +1,13 @@
+file_format: "1"
+id: picantormx
+name: Picantor_mx
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - picantor_mx_left
+  - picantor_mx_right
